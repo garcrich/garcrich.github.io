@@ -393,7 +393,7 @@ h3 {
 /*========YOUTUBE========*/
 
 .youtube_cover {
-    background-image: url(../img/youtube/cover_art_xsm.jpg);
+    background-image: url(../img/videos/cover_art_xsm.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -433,7 +433,7 @@ footer img {
 
 @media only screen and (min-width: 500px) {
     .youtube_cover {
-        background-image: url(../img/youtube/cover_art_sm.jpg);
+        background-image: url(../img/videos/cover_art_sm.jpg);
         background-position: top center;
     }
 }
