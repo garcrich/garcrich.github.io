@@ -28,7 +28,7 @@ Coded features starting with header and footer. The some designs changed to impr
 ##7. Code Optimizations
 First, code was validated with HTML and CSS validators. Next, all CSS files were beautified. After this all CSS files were concatenated and minfied. Original CSS files are still available.
 
-##8.I mage Optimizations
+##8.Image Optimizations
 Image File sizes were reduced with lossy compression using Riot.
 
 ##9. Upload to GitHub
