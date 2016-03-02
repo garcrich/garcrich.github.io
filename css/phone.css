@@ -97,7 +97,7 @@ nav {
     display: inline;
 }
 #ham_icon img {
-    padding: 14px 0 0 2%;
+    padding: 20px 0 0 8px;
 }
 #nav_menu,
 .feat_disc {
@@ -128,7 +128,7 @@ nav {
     text-transform: uppercase;
     float: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
     display: inline-block;
     padding: 10px 0;
     width: 50%;
@@ -260,6 +260,7 @@ h3 {
     background-color: #1a1a1a;
 }
 .about-main-content img {
+    width: 80%;
     border-radius: 25px;
 }
 .abt-even,
