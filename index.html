@@ -1,145 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
-      <meta name="google-site-verification" content="zOPP7I8kGKX213L4-JRrs2SIDgzKTk8w-1n4qaSCrak" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta charset="UTF-8">
-      <meta name="description" content="All things web development by Ricky Garcia">
-      <meta name="keywords" content="HTML,CSS,XML,JavaScript, Web Development, Web Design, Responsive Design, Ricky Garcia, jQuery, Website Building">
-      <meta name="author" content="Ricky Garcia">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="web design, social media, web development, marketing in Idaho, social media marketing Pocatello, social media marketing East Idaho">
+      <meta name="author" content="Richard Garcia">
+      <meta name="description" content="From building websites to growing your business with social media, I've got you covered. See why choosing me to grow your company is a smart idea.">
+      <!-- Latest compiled and minified Bootstrap CSS -->
+      <link rel="icon" type="image/png"href="images/favicon.png" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
       <title>Built By Ricky</title>
-      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-      <link href='https://fonts.googleapis.com/css?family=Montserrat|Crimson+Text' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" type="text/css" href="css/reset.css">
-      <link rel="stylesheet" type="text/css" href="css/minified.css">
    </head>
    <body>
+
+
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+            <div class="row">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="collapsemenu">
+                  <ul class="nav  nav-justified">
+                     <li role="presentation"><a href="#home">Home</a></li>
+                     <li role="presentation"><a href="#about">About</a></li>
+                     <li role="presentation"><a href="#services">Services</a></li>
+                     <li role="presentation"><a href="#port">Portfolio</a></li>
+                     <li role="presentation"><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- PADDING FOR FIXED NAV INVISIBLE-->
+      <div class="content" id="home">
+      </div>
+
+      <!-- HERO -->
       <header>
-         <nav>
-            <div id="logo">
-               <img src="img/head_foot/logo.png" alt="circle with an R and a G centered inside.">
+         <div class="container bgimage visible-xs text-center">
+            <div class="cta-mobile">
+               <h1 class="hero-text-mobile"><span class="hero-text-mobile1">Small Business.</span><br> <span class="hero-text-mobile2">Big Marketing.</span></h1>
+               <a href="#services" class="btn btn-warning btn-md">See Services</a>
             </div>
-            <div id="ham_icon">
-               <div id="showPhoneNav">
-                  <img src="img/head_foot/ham_icon.png" alt="hamburger icon">
-               </div>
-            </div>
-            <div id="nav_menu">
-               <ul>
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="project.html">Projects</a></li>
-                  <li><a href="videos.html">YouTube</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Connect</a></li>
-               </ul>
-            </div>
-         </nav>
-         <!-- END NAV -->
-         <div id="phoneNav">
-            <ul>
-               <li class="phone_active"><a href="#">Home</a></li>
-               <li><a href="project.html">Projects</a></li>
-               <li><a href="videos.html">YouTube</a></li>
-               <li><a href="about.html">About</a></li>
-               <li><a href="contact.html">Connect</a></li>
-            </ul>
          </div>
-         <!-- END PHONE NAV -->
       </header>
-      <!-- END NAVIGATION -->
-      <div class="cover row">
-         <div class="col-12">
-            <h1>get your message</h1>
-            <h2>heard.</h2>
-         </div>
-      </div>
-      <!-- END COVER -->
-      <div class="features">
-         <div class="title col-12">
-            <h1>FEATURED CONTENT</h1>
-         </div>
-         <div>
-            <a href="art_of_detail.html">
-            <img src="img/home/aod_feat.jpg" alt="client: Art of Detail">
-            </a>
-         </div>
-         <div class="feat_disc">
-            <h2>Working with Art of Detail</h2>
-            <p>One of my first clients is also one of my favorites. We worked together to show more than their services.</p>
-         </div>
-         <div></div>
-         <img src="img/home/frogger_feat.jpg" alt="Frogger video game clone">
-         <div class="feat_disc">
-            <h2>Making a Frogger clone</h2>
-            <p>I love video games. This project uses object oriented programming to bring some of that old-school nostalgia.</p>
-         </div>
-         <div>
-            <a href="https://rickygarcia.quora.com/Can-Online-Learning-Upgrade-Your-Career" target="_blank">
-            <img src="img/home/Udacity_feat.jpg" alt="Udacity's Front End Nano Degree">
-            </a>
-         </div>
-         <div class="feat_disc">
-            <h2>Quora Blog:<br>Udacity Nano Degree</h2>
-            <p>I enrolled in Udacity's Online Nano Degree. This is the start of my journey.</p>
-         </div>
-         <div>
-            <a href="">
-            <img src="img/home/Udemy_feat.jpg" alt="Reivew of Udemy's website">
-            </a>
-         </div>
-         <div class="feat_disc">
-            <h2>Self Teaching</h2>
-            <p>Udemy is an online learning platform. In this video I'll let you know if their teaching style is right for you.</p>
-         </div>
-      </div>
-      <!-- END FEATURES -->
-      <div class="col-12 title">
-         <h1>ALL ABOUT WEB DEVELOPMENT</h1>
-      </div>
-      <div id="contentWrapper">
-         <div class="main-content">
-            <div class="main-content-text">
-               <div class="row">
-                  <div class="col-6">
-                     <h2>Like the Web?</h2>
-                     <p>If you're curious about web development, then this site is for you. From projects, web technology, to resources for learning how to learn web development yourself, there is something here for you. By spending thousands of hours learning and researching I’ve condensed my experiences in both projects to help you along your path.</p>
-                     <a href="https://rickygarcia.quora.com/" target="_blank">Visit my <span class="quora">Quora</span> blog</a>
-                  </div>
-                  <!-- END COLUMN -->
-                  <div class="col-6">
-                     <h2>Need Your Own Website?</h2>
-                     <p>Let's work together to build your online presence. WordPress, Wix, Bootstrap, and straight HTML and CSS. There are so many options to choose from. Working together, we can find what option works best for you according to your requirements. </p>
-                     <a href="">Let's connect</a>
-                  </div>
-                  <!-- END COLUMN -->
+      <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner" role="listbox">
+            <div class="item active">
+               <img src="images/web_cover1.jpg" alt="cute young woman smiling in hat">
+               <div class="carousel-caption carousel-adjust">
+                   <h1 class="hero-text"><span class="hero-text-sub1">Small Business.</span> <span class="hero-text-sub2"><br>Big Marketing.</span></h1>
+                  <a href="#services" class="btn btn-warning btn-lg btn-sl">See Services</a>
                </div>
-               <!-- END ROW -->
+            </div>
+            <div class="item">
+               <img src="images/web_cover2.jpg" alt="middle aged man looking stage left">
+               <div class="carousel-caption">
+                  <h1 class="hero-text"><span class="hero-text-sub1">Real Clients.</span> <span class="hero-text-sub2"><br>Real Results.</span></h1>
+                  <a href="#port" class="btn btn-warning btn-lg btn-sl">See Portfolio</a>
+               </div>
+            </div>
+            <div class="item">
+               <img src="images/web_cover3.jpg" alt=" picture of Ricky photographing product on a table">
+               <div class="carousel-caption">
+                  <h1 class="hero-text3"><span class="hero-text-sub1">View My</span> <span class="hero-text-sub2"><br>Credentials</span></h1>
+                  <a href="#about" class="btn btn-warning btn-lg btn-sl">Learn More About Me</a>
+               </div>
+            </div>
+         </div>
+         <!-- Left and right controls -->
+         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <hr>
+      <!-- About Me -->
+      <div id="about">
+      </div>
+      <div class="ab1">
+         <div class="container">
+            <!-- About Me Section 1-->
+            <div class="row">
+               <!-- section one -->
+               <div class="col-sm-4">
+                  <h2>Hi, My Name Is Richard</h2>
+                  <p>Social Media Manager. <br>Frontend Web Developer. <br>Lifelong Learner</p>
+                  <img src="images/Watermark_icon.png" class="watermark-icon" alt="circular logo with cartoon character resembling Ricky">
+               </div>
+               <div class="col-sm-4">
+                  <h2 class="about_what">What I Do</h2>
+                  <p class="para about_para">I help small businesses improve their brand, bring in more customers, and compete with big business.</p>
+                  <img src="images/profile.png" class="profile img-circle" alt="profile picture of Ricky waist up contemplating">
+               </div>
+               <div class="col-sm-4 ">
+                  <img src="images/about_me.png" class="img-responsive pull-right about_img" alt="Picture of Ricky smiling arms crossed">
+               </div>
             </div>
          </div>
       </div>
-      <!-- END CONTENT WRAPPER -->
-      <footer class="clearfix">
-         <ul>
-            <li>
-               <a href="https://github.com/garcrich" target="_blank"><img src="img/head_foot/git_hub.png" alt="Git Hub Logo">
-               </a>
-            </li>
-            <li class="linked_in">
-               <a href="https://www.linkedin.com/in/richardgarcia2" target="_blank"><img src="img/head_foot/linked_in.png" alt="LinkedIn Logo">
-               </a>
-            </li>
-            <li>
-               <a href="https://twitter.com/garcrich" target="_blank"><img src="img/head_foot/twitter.png" alt="twitter logo">
-               </a>
-            </li>
-            <li>
-               <a href="mailto:garcrich@outlook.com"><img src="img/head_foot/email.png" alt="square mail letter icon">
-               </a>
-            </li>
-         </ul>
+   </div>
+</div>
+<div class="ab2">
+         <div class="container">
+            <!-- About Me Section 2 -->
+            <div class="row">
+            <div class="col-sm-4">
+               <h4 class="about2_mrg">My Unique Background</h4>
+               <p class="para">Graduated with a bachelor’s in economics and learned how to identify market trends, increase profits, and reduce costs.</p>
+               <img src="images/college_degree.png" class="img-responsive img-rounded ba_img" img="Bachlors Degree in Economics">
+            </div>
+
+
+               <!-- section three -->
+               <div class="col-sm-4">
+                  <h4 class="about2_mrg">Certified Net Promoter</h4>
+                  <p class="para">A customer service process, used by top brands like Apple, Starbucks, and Amazon.com.</p>
+                  <img src="images/NPS_cert.png" class="img-responsive img-rounded nps_img" alt="Net Promoter Certification">
+               </div>
+
+               <!-- section 1 -->
+               <div class="col-sm-4">
+                  <h4 class="about2_mrg">Udacity Nanodegree</h4>
+                  <p class="para">graduate in Front End Web Development. A rigorous program that requires students to build successful projects to prove their competency in building websites.</p>
+
+                  <img src="images/Udacity_Frontend_cert.png" class="img-responsive img-rounded .ud_cert" alt="Udacity Certification">
+               </div>
+            </div>
+
+            <div class="col-sm-12 text-center btn_res">
+               <form method="get" action="downloads/Richard_resume.pdf" target="_blank">
+                  <button type="submit" class="btn btn-warning btn-lg">See Resume</button>
+               </form>
+            </div>
+         </div>
+</div>
+      <!-- social media and web design -->
+      <div id="services">
+      </div>
+      <div class="social_media">
+         <div class="container">
+            <div class="row">
+               <!-- section 2 -->
+               <div class="col-xs-12">
+                  <div class="row">
+                     <div class="col-sm-4">
+                        <h2>Social Media Marketing</h2>
+                        <div class="row center-block sm-icons">
+                           <div class="col-xs-4">
+                              <img src="images/fb_thumb.png" class="img-responsive" alt="Facebook thumb icon">
+                           </div>
+                           <div class="col-xs-4">
+                              <img src="images/linkedin_icon.png" class="img-responsive" alt="LinkedIn in icon">
+                           </div>
+                           <div class="col-xs-4">
+                              <img src="images/youtube_icon.png" class="img-responsive" alt="YouTube play icon">
+                           </div>
+                     </div>
+                        </div>
+                     <div class="col-md-4">
+                        <h3 class="web-margin">Reach More Customers. With Less Money.</h3>
+                        <p class="para">Use targeted marketing to get in front of the right people. Share content that establishes your brand. Publish posts with professional photos, use graphic design, and publish posts specifically for social media.</p>
+                     </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end social media -->
+      <!-- Website Design -->
+      <div class="web_design">
+         <div class="container">
+            <div class="row">
+               <!-- copy on left -->
+               <div class="col-sm-4">
+                  <h2>Website Design</h2>
+                  <div class="row web-icons">
+                     <div class="col-xs-4 coding-max-width">
+                        <img src="images/web_design_code.png" alt="circular image of html code in sublime text">
+                     </div>
+                     <div class="col-xs-6 wp-max-width">
+                        <img src="images/wordpress-logo-simplified-rgb.png" alt="Wordpress logo">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <h3 class="web-margin">Custom Web Design</h3>
+                  <p class="web-p-margin para">Best for small businesses that want maximum flexibility in creativity and fast loading pages.</p>
+               </div>
+               <div class="col-sm-4">
+                  <h3 class="web-margin">WordPress Design</h3>
+                  <p class="web-p-margin para">Easy drag and drop options allows for easy maintenance and frequent updating. All without needing to code.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end web design -->
+      <!-- end social media and web design -->
+
+      <div id="port">
+      </div>
+      <div class="portfolio">
+         <div class="container">
+            <!-- social media section 1 -->
+            <div class="row">
+               <!-- section 1 -->
+               <div class="col-md-4">
+                  <h2>See Proof Is In The Pudding</h2>
+                  <h4>Frontend Web Development</h4>
+                  <p class="para">When you’re serious about web development, you need to get educated. Udacity’s Nanodegree program trained me in Frontend Web Development.</p>
+               </div>
+               <!-- section 2 -->
+               <div class="col-md-4 social-margin">
+                  <h4>Social Media</h4>
+                  <p class="para">I specialize in Facebook, the most cost effective way to reach an audience. See examples of ads run in the past. Other marketing channels that I’m familiar with are: YouTube, twitter, and Google Ad Words.</p>
+               </div>
+               <!-- section 3 -->
+               <div class="col-md-4 fb-video-margin">
+                  <div class="videoWrapper2">
+                     <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEnchantmentsID%2Fvideos%2F1144920298877226%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" data-show-captions="false"></iframe>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <form method="get" action="downloads/Garcia_Portfolio.pdf" target="_blank">
+               <button class="btn btn-warning port-btn btn-lg">Download Portfolio</button>
+            </form>
+            </div>
+         </div>
+      </div>
+      <!-- contact section -->
+
+      <div id="contact">
+      </div>
+      <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2>Contact Me</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <h3>Email:</h3>
+                  <a href="mailto:simplysocialid@outlook.com">
+                  <h4>simplysocialid@outlook.com</h4>
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <h3>Phone:</h3>
+                  <h4 class="phone-text">208.705.0955</h4>
+               </div>
+               <div class="col-md-4">
+                  <h3>LinkedIn</h3>
+                  <a href="https://linkedin.com/in/richardgarcia2" target="_blank">
+                     <h4>linkedin.com/in/richardgarcia2</h4>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <script src="https://use.typekit.net/cgn3jez.js"></script>
+         <script>try{Typekit.load({ async: true });}catch(e){}</script>
+         <!--Google jQuery CDN-->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+         <!-- Bootstrap JS -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+         <!-- JS Script -->
+         <script src="js/script.js"></script>
       </footer>
-      <!-- END CONTENT FOOTER -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-      <script src="js/main.js"></script>
    </body>
 </html>
