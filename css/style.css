@@ -253,11 +253,20 @@ button {
 }
 
 .web-p-margin {
-	margin-top: 20px;
+	margin-top: 17px;
 }
 
 .sm-icons {
 	margin-top: 35px;
+}
+
+
+.web_design, .social_media {
+	padding-bottom: 20px;
+}
+
+.contact-margin h3 {
+	margin-top: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
